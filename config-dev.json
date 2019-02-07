@@ -1,0 +1,19 @@
+{
+    "logs": {
+      "default": {
+        "enable": false,
+        "path": "logs/",
+        "name": "node-skeleton",
+        "level": "info"
+    }
+    },
+    "accessControl": {
+      "enable": true,
+      "allowedOrigins": [
+        "*"
+      ],
+      "allowMethods": "HEAD,GET,POST",
+      "allowHeaders": "Content-Type,Cache-Control,X-Range,X-Requested-With",
+      "exposedHeaders": "Content-Range"
+    }
+}
