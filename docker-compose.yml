@@ -1,0 +1,21 @@
+version: '3.6'
+
+services:
+  node-skeleton:
+    build: ./docker/node
+    volumes:
+      - ./:/var/nodejs/
+    expose:
+      - 4242
+    ports:
+      - "4242:4242"
+    environment:
+      NODE_PORT: 4242
+      NODE_ENV: development
+      ENV_LOG_LEVEL: trace
+    # labels:
+    #   traefik.frontend.rule: "Host: "
+    #   traefik.docker.network: "front"
+    #   traefik.frontend.entryPoints: https, http
+    # networks:
+    #   front:
