@@ -1,0 +1,20 @@
+{
+  "name": "node-skeleton",
+  "version": "0.0.1",
+  "description": "Skeleton for NodeJs 10 projects",
+  "private": true,
+  "main": "server.js",
+  "scripts": {
+    "build": "echo 'nothing to do yet'",
+    "server:dev": "nodemon server.js | bunyan",
+    "tests:eslint": "eslint ."
+  },
+  "dependencies": {
+    "express": "^4.14.0",
+    "bunyan": "^1.8.1"
+  },
+  "devDependencies": {
+    "eslint": "^5.11.1",
+    "nodemon": "^1.10.2"
+  }
+}
