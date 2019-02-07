@@ -1,8 +1,11 @@
 # node-skeleton
 
-Listen on 
+Use: 
+```git clone git@github.com:wako057/node-skeleton.git <monprojet>```
 
-> http://localhost:4242
+Listen on:
+
+`http://localhost:4242`
 
 Basic skeleton with a logger and basics routing 
 
